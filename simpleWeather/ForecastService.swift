@@ -19,7 +19,7 @@ struct ForecastService {
     
     init(APIKey:String){
         forecastAPIKey = APIKey
-        forcastBaseURL = NSURL(string: "https://api.forecast.io/forecast/\(forecastAPIKey)/")
+        forcastBaseURL = NSURL(string: "https://api.darksky.net/forecast/\(forecastAPIKey)/")
     }
     
     
